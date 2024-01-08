@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 150px;
+            border: 1px solid #ddd;
+            background-color: bisque;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 10px 10px 0px 0px;
+            box-shadow: 5px 5px 5px #ddd;
+        }
+        .container {
+            display: flex;
+        }
+        .box-2 {
+            /* position: relative; */
+            /* left: 150px; */
+        }
+        .box-3 {
+            z-index: 1;
+        }
+        .box-4 {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Think About Position Css</h1>
+    <h3>More about Position</h3>
+    <section class="container">
+        <div class="box box-1">
+            <h3>box-1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, pariatur!</p>
+        </div>
+        <div class="box box-2">
+            <h3>box-2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, minima?</p>
+        </div>
+        <div class="box box-3">
+            <h3>box-3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, sit.</p>
+        </div>
+        <div class="box box-4">
+            <h3>box-4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, animi.</p>
+        </div>
+    </section>
+</body>
+</html>
